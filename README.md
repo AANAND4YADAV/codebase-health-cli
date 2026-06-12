@@ -1,5 +1,4 @@
 
----
 ## Experimental disclaimer
 This is an **AI-assisted experimental project**, not a production-grade static analysis suite.
 - Heuristics for non-Python languages are approximate.
