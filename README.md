@@ -1,35 +1,59 @@
 
-## Experimental disclaimer
-This is an **AI-assisted experimental project**, not a production-grade static analysis suite.
-- Heuristics for non-Python languages are approximate.
-- Duplicate detection uses line-block hashing, not semantic clone analysis.
-- Scoring thresholds are opinionated defaults, not industry standards.
-- Features and APIs may change without notice.
-Use it as a learning tool, a quick health snapshot, or a starting point — not as a gate for CI/CD without your own validation.
+
+## Experimental Disclaimer
+
+This project is an **AI-assisted software engineering experiment** exploring codebase analysis, maintainability metrics, and developer tooling.
+
+### Limitations
+
+* Heuristics for non-Python languages are approximate.
+* Duplicate code detection uses line-block hashing rather than semantic clone analysis.
+* Scoring thresholds are opinionated defaults and should not be considered industry standards.
+* Features, metrics, and APIs may evolve as the project develops.
+
+### Intended Use
+
+Use this tool as:
+
+* A learning resource
+* A quick codebase health snapshot
+* An exploration of software quality metrics
+* A foundation for further experimentation
+
+It is **not intended to be a production-grade static analysis platform** or a strict CI/CD quality gate without additional validation.
+
 ---
-## Supported file types
-`.py` `.js` `.ts` `.tsx` `.jsx` `.java` `.go` `.rs` `.rb` `.php` `.c` `.cpp` `.h` `.hpp` `.cs` `.swift` `.kt` `.scala` `.sh` `.sql` `.yaml` `.yml` `.toml` `.json` `.md`
-Complexity and naming analysis are **Python-only**. Other metrics run across the broader file set.
+
+## Supported File Types
+
+The tool currently supports analysis across the following file types:
+
+```text
+.py  .js  .ts  .tsx  .jsx
+.java  .go  .rs  .rb  .php
+.c  .cpp  .h  .hpp  .cs
+.swift  .kt  .scala
+.sh  .sql
+.yaml  .yml  .toml  .json
+.md
+```
+
+### Notes
+
+* Complexity analysis is currently Python-specific.
+* Naming analysis is currently Python-specific.
+* Other metrics operate across the broader supported file set.
+
 ---
+
 ## Author
-**[AANAND4YADAV](https://github.com/AANAND4YADAV)**
-Built with curiosity and AI collaboration.
+
+**AANAND4YADAV**
+
+Built through curiosity, experimentation, and AI collaboration.
+
 ---
+
 ## License
-Experimental — use at your own discretion.
-README.md is in your project. It highlights:
 
-AI-based experimental project framing at the top
-What the tool does and the five metrics
-Install and run instructions
-Project structure
-Experimental disclaimer (heuristics, not production-grade)
-Your GitHub username as author
-To add it to GitHub, run in your terminal:
-
-cd C:\Users\aruny\.cursor\projects\empty-window\codebase-health
-git add README.md
-git commit -m "Add README for AI-based experimental project"
-git push
-Or upload README.md through the GitHub web UI if you're using that workflow.
-
+Experimental project — use, modify, and explore at your own discretion.
